@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import PriceInfoCard from "@/components/PriceInfoCard";
+import Modal from "@/components/Modal";
 
 type Props = {
     params: { id: string }
@@ -150,7 +151,7 @@ const ProductDetails = async ({ params: { id } }: Props) => {
                         </div>
                     </div>
 
-                    {/*<Modal productId={id} />*/}
+                    <Modal productId={id} />
                 </div>
             </div>
 
