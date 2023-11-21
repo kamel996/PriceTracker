@@ -8,8 +8,14 @@ export async function scrapeAndStoreProduct(productUrl: string){
 
     try {
         connectToDB();
+
         const scrapedProduct = await scrapeAmazonProduct(productUrl)
+
         if (!scrapedProduct) return ;
+
+        let product = scrapedProduct;
+
+
 
     }catch (error: any){
         throw new Error(`Failed because ${error.message}`)
