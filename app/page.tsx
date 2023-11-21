@@ -1,8 +1,11 @@
 import Image from "next/image";
 import Searchbar from "@/components/Searchbar";
 import HeroCarousel from "@/components/HeroCarousel";
+import {getAllProducts} from "@/lib/actions";
 
 const HOME = async () => {
+
+    const allProducts = await getAllProducts()
     return (
         <>
             <section className="px-6 md:px-20 py-24">
@@ -33,8 +36,8 @@ const HOME = async () => {
             <section className="trending-section">
                 <h2 className="section-text">Trending</h2>
                 <div className="flex flex-wrap gap-x-8 gap-y-16">
-                    {['apple', 'strawberry', 'book'].map((product) => (
-                        <div key={product}>{product}</div>
+                    {allProducts?.map((product) => (
+                        <div key={product._id}>{product.title}</div>
                     ))}
                 </div>
             </section>
