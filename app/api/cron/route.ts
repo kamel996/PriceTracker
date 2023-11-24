@@ -21,7 +21,8 @@ export async function GET(request:Request){
 
              // first we scrape the product
              const scrapedProduct = await scrapeAmazonProduct(currentProduct.url);
-             if (!scrapedProduct) throw new Error("No product found");
+             if (!scrapedProduct) return;
+
 
              const updatedPriceHistory = [
                  ...currentProduct.priceHistory,
