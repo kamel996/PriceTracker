@@ -5,7 +5,10 @@ import {getAveragePrice, getEmailNotifType, getHighestPrice, getLowestPrice} fro
 import {generateEmailBody, sendEmail} from "@/lib/nodemailer";
 import {NextResponse} from "next/server";
 
-export async function GET(){
+export const maxDuration = 300;
+export const dynamic = 'force-dynamic'
+export const revalidate = 0;
+export async function GET(request:Request){
     try {
      connectToDB();
 
@@ -32,7 +35,7 @@ export async function GET(){
                  averagePrice: getAveragePrice(updatedPriceHistory)
              }
              const updatedProduct = await Product.findOneAndUpdate(
-                 {url: scrapedProduct.url},
+                 {url: product.url},
                  product
              )
 
