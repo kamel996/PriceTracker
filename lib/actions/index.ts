@@ -93,12 +93,14 @@ export async function getSimilarProducts(productId: string){
 export async function addUserEmailToProduct(productId: string, userEmail:string){
     try{
         const product = await Product.findById(productId)
-        if(!product) return null;
+        if(!product) return console.log("No product here");
 
         const userExists = product.users.some((user: User) => user.email === userEmail);
 
         if(!userExists){
             product.users.push({email: userEmail})
+
+            console.log("kamel")
 
             await product.save();
 

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef37ee02-2a11-407a-be47-01331f43a5f4" name="Changes" comment="fixed duration">
+      <change beforePath="$PROJECT_DIR$/lib/actions/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/index.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2YIr8E8SgAQZaGEHp3ck0LOeHKA" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kamel/Desktop/projects/pricewise/pricewise&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/kamel/Desktop/projects/pricewise/pricewise/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef37ee02-2a11-407a-be47-01331f43a5f4" name="Changes" comment="" />
+      <created>1700223772728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700223772728</updated>
+      <workItem from="1700223773926" duration="5531000" />
+      <workItem from="1700229519708" duration="1219000" />
+      <workItem from="1700347009782" duration="2262000" />
+      <workItem from="1700397656741" duration="932000" />
+      <workItem from="1700465291726" duration="253000" />
+      <workItem from="1700551732707" duration="12315000" />
+      <workItem from="1700566488256" duration="3866000" />
+      <workItem from="1700815540881" duration="9547000" />
+      <workItem from="1701069485655" duration="607000" />
+    </task>
+    <task id="LOCAL-00001" summary="added navbar and search">
+      <option name="closed" value="true" />
+      <created>1700226684742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700226684742</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added hero carousel component">
+      <option name="closed" value="true" />
+      <created>1700228569081</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700228569081</updated>
+    </task>
+    <task id="LOCAL-00003" summary="started with the searchbar">
+      <option name="closed" value="true" />
+      <created>1700230651150</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700230651150</updated>
+    </task>
+    <task id="LOCAL-00004" summary="scraping data">
+      <option name="closed" value="true" />
+      <created>1700556606216</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700556606216</updated>
+    </task>
+    <task id="LOCAL-00005" summary="scraping data">
+      <option name="closed" value="true" />
+      <created>1700556723048</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700556723048</updated>
+    </task>
+    <task id="LOCAL-00006" summary="setting mongo db connection">
+      <option name="closed" value="true" />
+      <created>1700558030710</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700558030710</updated>
+    </task>
+    <task id="LOCAL-00007" summary="created the model of the product">
+      <option name="closed" value="true" />
+      <created>1700558320592</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700558320592</updated>
+    </task>
+    <task id="LOCAL-00008" summary="get first product from the db">
+      <option name="closed" value="true" />
+      <created>1700560437172</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700560437172</updated>
+    </task>
+    <task id="LOCAL-00009" summary="get products and list their titles">
+      <option name="closed" value="true" />
+      <created>1700561280064</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700561280064</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add product page and listing of the similar products with their actions">
+      <option name="closed" value="true" />
+      <created>1700563698608</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700563698608</updated>
+    </task>
+    <task id="LOCAL-00011" summary="created modal for submit tracking">
+      <option name="closed" value="true" />
+      <created>1700564582094</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700564582094</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added configurations for sending email for price tracking">
+      <option name="closed" value="true" />
+      <created>1700569755681</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700569755681</updated>
+    </task>
+    <task id="LOCAL-00013" summary="implementing cron job">
+      <option name="closed" value="true" />
+      <created>1700818064837</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700818064837</updated>
+    </task>
+    <task id="LOCAL-00014" summary="implementing cron job">
+      <option name="closed" value="true" />
+      <created>1700819188992</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700819188992</updated>
+    </task>
+    <task id="LOCAL-00015" summary="implementing cron job">
+      <option name="closed" value="true" />
+      <created>1700819876010</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1700819876010</updated>
+    </task>
+    <task id="LOCAL-00016" summary="changed duration">
+      <option name="closed" value="true" />
+      <created>1700820093528</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1700820093528</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fixed duration">
+      <option name="closed" value="true" />
+      <created>1700821136728</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1700821136728</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fixed duration">
+      <option name="closed" value="true" />
+      <created>1700821276269</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1700821276269</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="initializing" />
+    <MESSAGE value="added navbar and search" />
+    <MESSAGE value="added hero carousel component" />
+    <MESSAGE value="started with the searchbar" />
+    <MESSAGE value="scraping data" />
+    <MESSAGE value="setting mongo db connection" />
+    <MESSAGE value="created the model of the product" />
+    <MESSAGE value="get first product from the db" />
+    <MESSAGE value="get products and list their titles" />
+    <MESSAGE value="add product page and listing of the similar products with their actions" />
+    <MESSAGE value="created modal for submit tracking" />
+    <MESSAGE value="added configurations for sending email for price tracking" />
+    <MESSAGE value="implementing cron job" />
+    <MESSAGE value="changed duration" />
+    <MESSAGE value="fixed duration" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed duration" />
+  </component>
+</project>

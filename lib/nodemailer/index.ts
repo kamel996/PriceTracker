@@ -86,7 +86,7 @@ const transporter = nodemailer.createTransport({
     service: 'hotmail',
     port: 2525,
     auth: {
-        user: 'kamel_price_tracker@outlook.com',
+        user: 'kamel-price-tracker@outlook.com',
         pass: process.env.EMAIL_PASSWORD,
     },
     maxConnections: 1
@@ -94,11 +94,11 @@ const transporter = nodemailer.createTransport({
 
 export const sendEmail = async (emailContent: EmailContent, sendTo: string[]) => {
     const mailOptions = {
-        from: 'kamel_price_tracker@outlook.com',
-        to: sendTo,
-        html: emailContent.body,
-        subject: emailContent.subject,
-    }
+      from: "kamel-price-tracker@outlook.com",
+      to: sendTo,
+      html: emailContent.body,
+      subject: emailContent.subject,
+    };
 
     transporter.sendMail(mailOptions, (error: any, info: any) => {
         if(error) return console.log(error);
